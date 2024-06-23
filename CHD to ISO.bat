@@ -1,0 +1,1 @@
+for /r %%i in (*.chd) do chdman extracthd -i "%%i" -o "%%~ni.iso"
